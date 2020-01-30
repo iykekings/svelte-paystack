@@ -1,10 +1,10 @@
- # Svelte-paystack 
+# Svelte-paystack 
 
- ## A svelte library for implementing paystack payment gateway
+## A svelte library for implementing paystack payment gateway
 
- ## Getting started
+## Getting started
 
- ```html
+```html
 <script>
   import Paystack from 'svelte-paystack';
   let config = {
@@ -25,7 +25,7 @@
   }
 </script>
 <Paystack {config} />
- ```
+```
 > Configuration Options
   - For `embed: true` all Configuration options specified here by [paystack embed](https://developers.paystack.co/docs/paystack-embded#section-configuration-options) can be specified.
 
@@ -40,8 +40,8 @@
 
 ## Examples
 
-  - ### Inline
+  - Inline
   ![](/images/inline.png)
 
-  - ### Embed
+  - Embed
   ![](/images/embed.png)
