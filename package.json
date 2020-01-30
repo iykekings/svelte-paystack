@@ -1,6 +1,11 @@
 {
-  "name": "svelte-app",
-  "version": "1.0.0",
+  "name": "svelte-paystack",
+  "version": "0.0.1",
+  "svelte": "src/index.js",
+  "author": "Ikechukwu Eze <hello@ikeze.dev>",
+  "license": "MIT",
+  "homepage": "https://github.com/iykekings/svelte-paystack#readme",
+  "bugs": "https://github.com/iykekings/svelte-paystack/issues",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -17,5 +22,15 @@
   },
   "dependencies": {
     "sirv-cli": "^0.4.4"
+  },
+  "keywords": [
+    "paystack",
+    "svelte",
+    "payment",
+    "inline"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iykekings/svelte-paystack.git"
   }
 }
