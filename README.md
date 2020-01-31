@@ -4,6 +4,17 @@
 
 ## Getting started
 
+> Install
+
+```sh
+  npm i svelte-paystack
+```
+
+
+> Use
+
+Import Paystack component as the default export from `svelte-paystack` and pass in your paystack configuration to it as `config` prop. This configuration can be found in your paystack dashboard.
+
 ```html
 <script>
   import Paystack from 'svelte-paystack';
