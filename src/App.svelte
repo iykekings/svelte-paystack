@@ -1,9 +1,12 @@
 <script>
   import Paystack from "./Paystack.svelte";
+  import Button from "./customButton.svelte"
+
   let config = {
     key: "pk_test_a869b0564dc0763418d5cfb3b3b7a2590b1312c6",
     email: "iykekings36@gmail.com",
     amount: 10000,
+    withSlot:false,
     currency: "NGN",
     embed: false,
     value: "Pay NGN100",
@@ -31,5 +34,7 @@
 </style>
 
 <section id="paystack">
-  <Paystack {config} />
+  <Paystack let:usePayInline {config}>
+    <Button action={usePayInline}/>
+  </Paystack>
 </section>
