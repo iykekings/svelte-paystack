@@ -32,7 +32,7 @@ export default {
   ],
   watch: {
     clearScreen: false
-  }
+  },
 };
 
 function serve() {
