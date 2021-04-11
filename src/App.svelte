@@ -6,7 +6,7 @@
     key: "pk_test_a869b0564dc0763418d5cfb3b3b7a2590b1312c6",
     email: "iykekings36@gmail.com",
     amount: 10000,
-    withSlot:false,
+    withSlot: false,
     currency: "NGN",
     embed: false,
     value: "Pay NGN100",
