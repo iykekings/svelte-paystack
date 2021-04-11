@@ -1,12 +1,8 @@
 <script>
-  // IMPORTS
   import { onMount } from "svelte";
 
-  //PROPS
   export let config = {};
-  // export let customButton='';
 
-  //STATES
   let paystackReady = false;
   let mounted = false;
 
